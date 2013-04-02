@@ -13,19 +13,19 @@ body
 	padding: 0;
 	margin: 0 ;
 #	background: #fff;
-	font-family: arial;
 }
 
 #header
 {
 	margin: 0;
-	padding: 20px;
+	padding: 10px;
 	background: #ccc;
-	height:50px;
+	height: 45px;
 	background-image: url('haut.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
-	background-position:center; 
+	background-position:center;
+	opacity: 0.95; 
 }
 
 #header h1 { margin: 0; }
@@ -64,25 +64,26 @@ body
 
 #edito
 {
-	height: 400px;
-	float: left;
+	height: auto;
 	padding: 0%;
-	margin: 1%;
-	width: 64%;
-	background-color: #FFFFFF;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 95%;
+	background-color: #ffffff;
+	border: 3px solid #f2f2f2;
+	font-size: 90%;
+	opacity: 0.9;
+
 }
 
 #edito h2
 {
-	color: #E08D72;
-	font-size: 160%;
-	margin: 0 0 .5em;
+
+	color: #000;
+	font-size: 180%;
+	margin-right: 15%;
 }
 
 div.element
@@ -92,15 +93,16 @@ div.element
 	min-width: 400px;
 	height: 400px;
 	overflow-y: scroll;
-	margin: 1%;
+	margin-top: 10px;
+	margin-left: 10px;
+	
 	padding: 0%;
 	background-color: #FFFFFF;
 	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	background-color: #ffffff;
+	border: 3px solid #f2f2f2;
+	font-size: 90%;
+	opacity: 0.9;
 }
 
 div.element img
@@ -122,23 +124,26 @@ p
 {
 	margin: 20px;
 	text-align: justify;
+	font-size: 105%;
 }
 
 h2,h3
 {
-	text-align: center;
+	text-align: right;
+	margin-right: 15%;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: left;
+	background: #fff;
+	text-align: center;
 	font-weight: bold;
-	padding: 20px;
+	padding: 15px;
 	height: 1%;
 	background-image: url('bas.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+
 }
